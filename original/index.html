@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aiutora - Original Site (2022)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        
+        .header {
+            background: #1a1a1a;
+            color: #fff;
+            padding: 2rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .header h1 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            letter-spacing: 0.1em;
+        }
+        
+        .header p {
+            font-size: 0.9rem;
+            color: #999;
+            margin-top: 0.5rem;
+        }
+        
+        .content-wrapper {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        
+        .page-section {
+            background: white;
+            margin: 2rem auto;
+            max-width: 1400px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .section-label {
+            background: #e8e8e8;
+            padding: 1rem 2rem;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: #666;
+            border-bottom: 2px solid #ddd;
+        }
+        
+        .iframe-container {
+            position: relative;
+        }
+        
+        iframe {
+            width: 100%;
+            border: none;
+            display: block;
+            background: white;
+            pointer-events: none;
+            overflow: hidden;
+        }
+        
+        iframe.page-1 { height: 3000px; }
+        iframe.page-2 { height: 3500px; }
+        iframe.page-3 { height: 3500px; }
+        iframe.page-4 { height: 2500px; }
+        iframe.page-5 { height: 2500px; }
+        
+        .back-link {
+            text-align: center;
+            padding: 3rem;
+            background: #1a1a1a;
+        }
+        
+        .back-link a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            border: 1px solid #fff;
+            display: inline-block;
+            transition: all 0.3s ease;
+            letter-spacing: 0.1em;
+            font-size: 0.9rem;
+        }
+        
+        .back-link a:hover {
+            background: #fff;
+            color: #1a1a1a;
+        }
+        
+        @media (max-width: 768px) {
+            .header {
+                padding: 1rem;
+            }
+            
+            .header h1 {
+                font-size: 1.2rem;
+            }
+            
+            .page-section {
+                margin: 1rem;
+            }
+            
+            .section-label {
+                padding: 0.75rem 1rem;
+                font-size: 0.75rem;
+            }
+            
+            iframe {
+                min-height: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>AIUTORA — ORIGINAL SITE</h1>
+        <p>Founded 2022 — Where it all began</p>
+    </div>
+    
+    <div class="content-wrapper">
+        <div class="page-section">
+            <div class="section-label">Homepage</div>
+            <div class="iframe-container">
+                <iframe src="Aiutora.htm" scrolling="no" class="page-1"></iframe>
+            </div>
+        </div>
+        
+        <div class="page-section">
+            <div class="section-label">For AI</div>
+            <div class="iframe-container">
+                <iframe src="Aiutora - for AI.htm" scrolling="no" class="page-2"></iframe>
+            </div>
+        </div>
+        
+        <div class="page-section">
+            <div class="section-label">For Humans</div>
+            <div class="iframe-container">
+                <iframe src="Aiutora - for humans.htm" scrolling="no" class="page-3"></iframe>
+            </div>
+        </div>
+        
+        <div class="page-section">
+            <div class="section-label">About</div>
+            <div class="iframe-container">
+                <iframe src="Aiutora - About.htm" scrolling="no" class="page-4"></iframe>
+            </div>
+        </div>
+        
+        <div class="page-section">
+            <div class="section-label">Commitment</div>
+            <div class="iframe-container">
+                <iframe src="Aiutora - Commitment.htm" scrolling="no" class="page-5"></iframe>
+            </div>
+        </div>
+    </div>
+    
+    <div class="back-link">
+        <a href="/">← BACK TO CURRENT SITE</a>
+    </div>
+</body>
+</html>
